@@ -1,5 +1,5 @@
-# Veeam freeze & thaw scripts for Sierra ILS
-Veeam Backup &amp; Replication Freeze-Thaw scripts for Sierra ILS (Innovative)
+# Veeam freeze & thaw scripts for Sierra
+Veeam Backup &amp; Replication Freeze-Thaw scripts for Sierra (Innovative)
 
 
 
