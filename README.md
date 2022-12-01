@@ -29,4 +29,4 @@ Utilize the Sierra Enterprise Backup API to interface the Sierra machine with Ve
     rotate 4
 }
 ```
-
+Test your configuration w/ `logrotate /etc/logrotate.conf --debug`
