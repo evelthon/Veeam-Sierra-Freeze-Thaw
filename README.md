@@ -20,5 +20,13 @@ Utilize the Sierra Enterprise Backup API to interface the Sierra machine with Ve
 - Perform changes to execution logic on the server side, w/o requiring repeated editing of Veeam scripts.
 - Detailed logging
 
-## Todo
-- Log cleanup
+## Log rotation
+1. Edit `/etc/logrotate.d/veeam` and add the following
+```
+/var/log/Veeam.Sierra.log {
+    weekly
+    missingok
+    rotate 4
+}
+```
+
