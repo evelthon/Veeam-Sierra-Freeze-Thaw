@@ -21,7 +21,7 @@ Utilize the Sierra Enterprise Backup API to interface the Sierra machine with Ve
 - Detailed logging
 
 ## Log rotation
-1. Edit `/etc/logrotate.d/veeam` and add the following
+1. Create `/etc/logrotate.d/veeam` and add the following
 ```
 /var/log/Veeam.Sierra.log {
     weekly
