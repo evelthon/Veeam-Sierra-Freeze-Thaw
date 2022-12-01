@@ -6,7 +6,7 @@
 ###################################################################################
 
 III_CMD='/usr/sbin/iiictl'
-LOG_FILE="Veeam.Sierra.log"
+LOG_FILE="/var/log/Veeam.Sierra.log"
 
 # Verify script is running as a user w/ root privileges
 function verify_root() {
