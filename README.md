@@ -8,7 +8,7 @@ Utilize the Sierra Enterprise Backup API to interface the Sierra machine with Ve
 ## Usage
 
 1. Create (if not already available) a user w/ sudo privileges on the target server.
-2. Set the details of the use as specified in https://helpcenter.veeam.com/docs/backup/vsphere/credentials_manager_linux.html?ver=110. Select `Elevate account privileges automatically.`
+2. Set the details of the user as specified in https://helpcenter.veeam.com/docs/backup/vsphere/credentials_manager_linux.html?ver=110. Select `Elevate account privileges automatically.`
 3. Scripts located in `Veeam-scripts` are to be set in `Processing settings >scripts > Linux scripts`, as specified in https://helpcenter.veeam.com/docs/backup/vsphere/pre_post_scripts.html?ver=110. Scripts should be edited and update the target folder. They currently point to a user's home folder.
 4. Copy the scripts located in Server-scripts to the location on your server, as specified in `Veeam-scripts`, for ex. the user's home folder.
 
