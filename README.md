@@ -19,6 +19,13 @@ Utilize the Sierra Enterprise Backup API to interface the Sierra machine with Ve
 - Minimal editing in Veeam settings
 - Perform changes to execution logic on the server side, w/o requiring repeated editing of Veeam scripts.
 - Detailed logging
+```
+2022-12-01 01:52:48,911 INFO  Script running w/ root privileges
+2022-12-01 01:52:48,919 INFO  Attempting restart of control program.
+2022-12-01 01:52:48,921 INFO  Backup prepare was successful. Continuing with iiictl backup success.
+2022-12-01 01:52:48,924 INFO  Executing /usr/sbin/iiictl backup success.
+2022-12-01 01:52:49,174 INFO  Executing /usr/sbin/iiictl backup success returned 0 (success). Exiting to Veeam.
+```
 
 ## Log rotation
 1. Create `/etc/logrotate.d/veeam` and add the following
